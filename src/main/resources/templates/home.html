@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" th:href="@{css/home.css}">
+	<script src="js/home.js"></script>
+	<style>
+
+
+	</style>
+</head>
+<body class="background">
+	<!-- ################################################################################################## -->
+	<!-- SOCIAL MEDIA -->
+	<!-- ################################################################################################## -->
+	<div class="icon-bar">
+		<a th:href="@{https://en-gb.facebook.com/}" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+		<a th:href="@{https://twitter.com/?lang=en-gb}" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+		<a th:href="@{https://aboutme.google.com}" target="_blank" class="google"><i class="fa fa-google"></i></a> 
+		<a th:href="@{https://www.linkedin.com}" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+		<a th:href="@{https://www.youtube.com}" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a> 
+	</div>
+	<!-- ################################################################################################## -->
+	<!-- TOP NAVBAR -->
+	<!-- ################################################################################################## -->
+	<div class="topnav" id="myTopnav">
+		<a th:href="@{/#}" class="active">Home</a>
+		<a th:href="@{/hostindex}">Host</a>
+		<a th:href="@{/customerindex}">Customer</a>
+		<a th:href="@{/contactdetailindex}">Contact</a>
+		<a th:href="@{/propertyindex}">Properties</a>
+		<a th:href="@{/propertyindex}">Property Types</a>
+		<a th:href="@{/reservationindex}">Reservations</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+</body>
+</html>
